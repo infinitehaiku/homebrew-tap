@@ -3,18 +3,18 @@ class IhMcp < Formula
   desc "Read-only MCP server for Infinite Haiku observability"
   homepage "https://infinitehaiku.com/docs/connect-ai-agent"
   # macOS (one universal archive); Linux overrides it per CPU below.
-  url "https://infinitehaiku.com/download/ih-mcp/0.5.0/ih-mcp-macos-universal.tar.gz"
-  sha256 "876fcd19d4b186940751fd81c9cf8e13242902954a4d9e4d6f2aa70b7c21d420"
+  url "https://infinitehaiku.com/download/ih-mcp/0.6.0/ih-mcp-macos-universal.tar.gz"
+  sha256 "713616eda91c77cce7786b5db4e65a93b25a96eb4d41d4c7738f229f2e2f818f"
   license :cannot_represent
 
   on_linux do
     on_intel do
-      url "https://infinitehaiku.com/download/ih-mcp/0.5.0/ih-mcp-linux-x86_64.tar.gz"
-      sha256 "bb4aa799a2b8d2f82fa23413803a3619507ce5be0add472ac3263861ef521731"
+      url "https://infinitehaiku.com/download/ih-mcp/0.6.0/ih-mcp-linux-x86_64.tar.gz"
+      sha256 "af13853fb6919e7e0bcc2645cf6fc42283b91753511ee6b56a7071d900681bf6"
     end
     on_arm do
-      url "https://infinitehaiku.com/download/ih-mcp/0.5.0/ih-mcp-linux-arm64.tar.gz"
-      sha256 "ab724f19b6b515e3d09e5c0a3fca570a0fd2a7cf99c42ecd35f2e2728268ecf0"
+      url "https://infinitehaiku.com/download/ih-mcp/0.6.0/ih-mcp-linux-arm64.tar.gz"
+      sha256 "10d16697d8b6606b424a00f15aa778d7c57a919c178a0220e4febfedb571c23e"
     end
   end
 
